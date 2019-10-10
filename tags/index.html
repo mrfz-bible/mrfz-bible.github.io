@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 3.9.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.4.1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.4.1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.4.1">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.4.1" color="#222">
+
+<link rel="stylesheet" href="/css/main.css?v=7.4.1">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.4.1',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.json',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: 'Copy',
+      copy_success: 'Copied',
+      copy_failure: 'Copy failed'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="tags">
+<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-10-08T03:12:03.894Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="tags">
+  <link rel="canonical" href="http://yoursite.com/tags/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: false,
+    isPage: true,
+    isArchive: false
+  };
+</script>
+
+  <title>tags | Hexo</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-tags">
+      
+    
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a href="javascript:;" class="popup-trigger">
+        
+          <i class="fa fa-search fa-fw"></i>Search</a>
+      </li>
+    
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="Searching..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+            
+
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+
+          <div id="content" class="content">
+            
+
+  <div class="posts-expand">
+    
+    
+    
+    <div class="post-block" lang="en">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">tags
+
+</h1>
+
+<div class="post-meta">
+  
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <div class="tag-cloud">
+            <div class="tag-cloud-title">
+              108 tags in total
+            </div>
+            <div class="tag-cloud-tags">
+              <a href="/tags/QQ看点/" style="font-size: 12px; color: #ccc">QQ看点</a> <a href="/tags/apple-pie/" style="font-size: 12px; color: #ccc">apple pie</a> <a href="/tags/bang-dream/" style="font-size: 13.64px; color: #bbb">bang dream</a> <a href="/tags/b站/" style="font-size: 30px; color: #111">b站</a> <a href="/tags/coser/" style="font-size: 20.18px; color: #777">coser</a> <a href="/tags/doctor/" style="font-size: 12px; color: #ccc">doctor</a> <a href="/tags/fgo/" style="font-size: 23.45px; color: #555">fgo</a> <a href="/tags/jojo/" style="font-size: 13.64px; color: #bbb">jojo</a> <a href="/tags/ky/" style="font-size: 13.64px; color: #bbb">ky</a> <a href="/tags/lol/" style="font-size: 13.64px; color: #bbb">lol</a> <a href="/tags/nga/" style="font-size: 25.09px; color: #444">nga</a> <a href="/tags/pokcy/" style="font-size: 12px; color: #ccc">pokcy</a> <a href="/tags/qq/" style="font-size: 15.27px; color: #aaa">qq</a> <a href="/tags/taptap/" style="font-size: 12px; color: #ccc">taptap</a> <a href="/tags/zwb/" style="font-size: 12px; color: #ccc">zwb</a> <a href="/tags/中国/" style="font-size: 12px; color: #ccc">中国</a> <a href="/tags/中国消防/" style="font-size: 12px; color: #ccc">中国消防</a> <a href="/tags/中秋/" style="font-size: 12px; color: #ccc">中秋</a> <a href="/tags/二次元/" style="font-size: 12px; color: #ccc">二次元</a> <a href="/tags/伊芙利特/" style="font-size: 12px; color: #ccc">伊芙利特</a> <a href="/tags/优越感/" style="font-size: 12px; color: #ccc">优越感</a> <a href="/tags/侮辱/" style="font-size: 13.64px; color: #bbb">侮辱</a> <a href="/tags/克洛丝/" style="font-size: 12px; color: #ccc">克洛丝</a> <a href="/tags/内战/" style="font-size: 12px; color: #ccc">内战</a> <a href="/tags/医生/" style="font-size: 13.64px; color: #bbb">医生</a> <a href="/tags/千年战争/" style="font-size: 12px; color: #ccc">千年战争</a> <a href="/tags/博士/" style="font-size: 12px; color: #ccc">博士</a> <a href="/tags/卫宫家今天的饭/" style="font-size: 12px; color: #ccc">卫宫家今天的饭</a> <a href="/tags/历史/" style="font-size: 12px; color: #ccc">历史</a> <a href="/tags/压稿/" style="font-size: 12px; color: #ccc">压稿</a> <a href="/tags/原石/" style="font-size: 12px; color: #ccc">原石</a> <a href="/tags/反串/" style="font-size: 15.27px; color: #aaa">反串</a> <a href="/tags/只狼/" style="font-size: 12px; color: #ccc">只狼</a> <a href="/tags/吃瓜/" style="font-size: 12px; color: #ccc">吃瓜</a> <a href="/tags/国外/" style="font-size: 12px; color: #ccc">国外</a> <a href="/tags/圣经/" style="font-size: 18.55px; color: #888">圣经</a> <a href="/tags/坦克世界/" style="font-size: 13.64px; color: #bbb">坦克世界</a> <a href="/tags/型月/" style="font-size: 12px; color: #ccc">型月</a> <a href="/tags/塞尔达/" style="font-size: 12px; color: #ccc">塞尔达</a> <a href="/tags/天下第一/" style="font-size: 12px; color: #ccc">天下第一</a> <a href="/tags/天灾人祸/" style="font-size: 12px; color: #ccc">天灾人祸</a> <a href="/tags/女权/" style="font-size: 12px; color: #ccc">女权</a> <a href="/tags/媚宅/" style="font-size: 13.64px; color: #bbb">媚宅</a> <a href="/tags/孤儿/" style="font-size: 12px; color: #ccc">孤儿</a> <a href="/tags/安洁丽娜/" style="font-size: 12px; color: #ccc">安洁丽娜</a> <a href="/tags/少女前线/" style="font-size: 21.82px; color: #666">少女前线</a> <a href="/tags/崩坏3/" style="font-size: 16.91px; color: #999">崩坏3</a> <a href="/tags/庞然大物/" style="font-size: 12px; color: #ccc">庞然大物</a> <a href="/tags/弹幕/" style="font-size: 26.73px; color: #333">弹幕</a> <a href="/tags/彩虹六号/" style="font-size: 13.64px; color: #bbb">彩虹六号</a> <a href="/tags/得克萨斯/" style="font-size: 12px; color: #ccc">得克萨斯</a> <a href="/tags/微博/" style="font-size: 23.45px; color: #555">微博</a> <a href="/tags/性冷淡/" style="font-size: 12px; color: #ccc">性冷淡</a> <a href="/tags/恰饭/" style="font-size: 12px; color: #ccc">恰饭</a> <a href="/tags/战舰少女r/" style="font-size: 12px; color: #ccc">战舰少女r</a> <a href="/tags/抄袭/" style="font-size: 12px; color: #ccc">抄袭</a> <a href="/tags/拉普兰德/" style="font-size: 12px; color: #ccc">拉普兰德</a> <a href="/tags/控评/" style="font-size: 13.64px; color: #bbb">控评</a> <a href="/tags/掩耳盗铃/" style="font-size: 16.91px; color: #999">掩耳盗铃</a> <a href="/tags/敏感话题/" style="font-size: 12px; color: #ccc">敏感话题</a> <a href="/tags/斗鱼/" style="font-size: 12px; color: #ccc">斗鱼</a> <a href="/tags/无能狂怒/" style="font-size: 12px; color: #ccc">无能狂怒</a> <a href="/tags/普罗旺斯/" style="font-size: 12px; color: #ccc">普罗旺斯</a> <a href="/tags/末药/" style="font-size: 12px; color: #ccc">末药</a> <a href="/tags/欧派/" style="font-size: 12px; color: #ccc">欧派</a> <a href="/tags/氪金/" style="font-size: 12px; color: #ccc">氪金</a> <a href="/tags/泳装/" style="font-size: 12px; color: #ccc">泳装</a> <a href="/tags/热搜/" style="font-size: 12px; color: #ccc">热搜</a> <a href="/tags/爆破/" style="font-size: 12px; color: #ccc">爆破</a> <a href="/tags/父母/" style="font-size: 12px; color: #ccc">父母</a> <a href="/tags/爹/" style="font-size: 12px; color: #ccc">爹</a> <a href="/tags/犹大/" style="font-size: 12px; color: #ccc">犹大</a> <a href="/tags/猫和老鼠/" style="font-size: 12px; color: #ccc">猫和老鼠</a> <a href="/tags/王者荣耀/" style="font-size: 12px; color: #ccc">王者荣耀</a> <a href="/tags/玩梗/" style="font-size: 12px; color: #ccc">玩梗</a> <a href="/tags/理中客/" style="font-size: 12px; color: #ccc">理中客</a> <a href="/tags/理智/" style="font-size: 12px; color: #ccc">理智</a> <a href="/tags/琴浦小姐/" style="font-size: 12px; color: #ccc">琴浦小姐</a> <a href="/tags/电棍/" style="font-size: 12px; color: #ccc">电棍</a> <a href="/tags/画师/" style="font-size: 12px; color: #ccc">画师</a> <a href="/tags/直播/" style="font-size: 15.27px; color: #aaa">直播</a> <a href="/tags/硬核/" style="font-size: 13.64px; color: #bbb">硬核</a> <a href="/tags/碧蓝航线/" style="font-size: 28.36px; color: #222">碧蓝航线</a> <a href="/tags/立绘/" style="font-size: 15.27px; color: #aaa">立绘</a> <a href="/tags/网易云音乐/" style="font-size: 12px; color: #ccc">网易云音乐</a> <a href="/tags/美服/" style="font-size: 12px; color: #ccc">美服</a> <a href="/tags/肝/" style="font-size: 12px; color: #ccc">肝</a> <a href="/tags/能天使/" style="font-size: 16.91px; color: #999">能天使</a> <a href="/tags/艺术/" style="font-size: 15.27px; color: #aaa">艺术</a> <a href="/tags/营销号/" style="font-size: 12px; color: #ccc">营销号</a> <a href="/tags/虎牙/" style="font-size: 12px; color: #ccc">虎牙</a> <a href="/tags/西卡/" style="font-size: 12px; color: #ccc">西卡</a> <a href="/tags/讽刺/" style="font-size: 12px; color: #ccc">讽刺</a> <a href="/tags/贴吧/" style="font-size: 26.73px; color: #333">贴吧</a> <a href="/tags/跳脸/" style="font-size: 12px; color: #ccc">跳脸</a> <a href="/tags/踩一捧一/" style="font-size: 12px; color: #ccc">踩一捧一</a> <a href="/tags/运营/" style="font-size: 12px; color: #ccc">运营</a> <a href="/tags/阴阳师/" style="font-size: 16.91px; color: #999">阴阳师</a> <a href="/tags/阿米娅/" style="font-size: 16.91px; color: #999">阿米娅</a> <a href="/tags/雪之下雪乃/" style="font-size: 13.64px; color: #bbb">雪之下雪乃</a> <a href="/tags/风格/" style="font-size: 12px; color: #ccc">风格</a> <a href="/tags/风评/" style="font-size: 12px; color: #ccc">风评</a> <a href="/tags/饭圈/" style="font-size: 13.64px; color: #bbb">饭圈</a> <a href="/tags/驴/" style="font-size: 16.91px; color: #999">驴</a> <a href="/tags/高达/" style="font-size: 12px; color: #ccc">高达</a> <a href="/tags/魔兽世界/" style="font-size: 12px; color: #ccc">魔兽世界</a> <a href="/tags/鹰角/" style="font-size: 12px; color: #ccc">鹰角</a> <a href="/tags/黑魂/" style="font-size: 12px; color: #ccc">黑魂</a>
+            </div>
+          </div>
+        
+      </div>
+      
+      
+      
+    </div>
+    
+
+    
+    
+    
+  </div>
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+        
+        
+        
+        
+      
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">78</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">categories</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+          
+            <a href="/tags/">
+          
+        
+        <span class="site-state-item-count">108</span>
+        <span class="site-state-item-name">tags</span>
+        </a>
+      </div>
+    
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.4.1</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js?v=3.1.0"></script>
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+<script src="/js/utils.js?v=7.4.1"></script><script src="/js/motion.js?v=7.4.1"></script>
+<script src="/js/schemes/pisces.js?v=7.4.1"></script>
+<script src="/js/next-boot.js?v=7.4.1"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+  <script src="/js/local-search.js?v=7.4.1"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
